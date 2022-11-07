@@ -39,4 +39,5 @@ echo "deb [signed-by=/usr/share/keyrings/grafana.key] https://packages.grafana.c
 sudo apt-get install prometheus
 ```
 
+наш чат: https://t.me/nats_py
 на этом, пожалуй, всё. спасибо за внимание!
