@@ -29,6 +29,9 @@ http_port: 8222
 ![after.png](after.png)
 
 
+так же если хотите, чтоб натс использовал больше железа, тогда можно изменить параметры `max_mem` и `max_file` на большее значение, или же вовсе удалить эти параметры. в этом случае натс будет использовать всё железо
+
+
 скачать prometheus-nats-exporter для графаны(необязательно): [ссылка](https://github.com/nats-io/prometheus-nats-exporter/releases)
 
 наш чат: https://t.me/nats_py
