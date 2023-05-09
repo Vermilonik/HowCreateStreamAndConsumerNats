@@ -22,22 +22,8 @@ http_port: 8222
 
 иногда нужно создать бакеты. чтобы это сделать, напиши команду: `nats kv add name —history=5 —storage=file` . эта команда создаст бакет с именем `name`(имена бакетов, которые нужно создать я буду указывать в README.md)
 
-бывают случаи, когда нужно запустить несколько сервисов для работы с `nats`. команды(или ссылки) я оставлю ниже:
 
-скачать grafana:
-```
-sudo apt-get install -y apt-transport-https
-sudo apt-get install -y software-properties-common wget
-sudo wget -q -O /usr/share/keyrings/grafana.key https://packages.grafana.com/gpg.key
-echo "deb [signed-by=/usr/share/keyrings/grafana.key] https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
-```
-
-скачать prometheus-nats-exporter: [ссылка](https://github.com/nats-io/prometheus-nats-exporter/releases)
-
-скачать prometheus:
-```
-sudo apt-get install prometheus
-```
+скачать prometheus-nats-exporter для графаны(необязательно): [ссылка](https://github.com/nats-io/prometheus-nats-exporter/releases)
 
 наш чат: https://t.me/nats_py
 
