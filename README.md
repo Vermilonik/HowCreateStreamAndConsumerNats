@@ -4,7 +4,10 @@
 перейди по этой ссылке: https://github.com/nats-io/nats-server/releases/ и скачай самую новую версию. после этого, нужно скачать [nats](https://github.com/nats-io/natscli/releases) и [nats top](https://github.com/nats-io/nats-top/releases) для полной красоты. после всего этого, нужно создать файл server.conf и написать туда:
 ```
 jetstream {
-    store_dir='/home/{user}/nats/'}
+    store_dir='nats/'
+    max_mem: "1G"
+    max_file: "5G"
+}
 http_port: 8222
 ```
 сохранить и написать команду `nats-server -c server.conf` в той же директории, где создал файлик `server.conf`
